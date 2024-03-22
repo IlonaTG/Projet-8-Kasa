@@ -4,6 +4,7 @@
 .appartement-info_host{
     @include position-right;
     flex-direction: column;
+    margin-top: 20px;
     .host-profil{
         @include center;
 
@@ -21,7 +22,7 @@
     }
 
     .rate{
-        margin-top: 20px;
+        margin-top: 35px;
         img{
             margin-left: 10px;
     }

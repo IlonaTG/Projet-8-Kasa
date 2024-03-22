@@ -4,6 +4,8 @@
 
 .appartement-info_container{
     @include space-between;
+    flex-wrap: wrap;
+    align-items:flex-start;
     .appartement-info_profil{
         .label-container{
     
@@ -23,6 +25,7 @@
 
         .tags-container{
             @include left;
+            flex-wrap: wrap;
             span{
                 text-align: center;
                 @include center;
@@ -33,6 +36,7 @@
                 color: $white;
                 padding: 3px 40px 3px 40px;
                 margin-right: 10px;
+                margin-top: 10px;
             }
         }
     }
